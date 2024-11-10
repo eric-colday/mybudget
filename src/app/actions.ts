@@ -13,7 +13,7 @@ export async function checkAndAddUser(email: string | undefined) {
         })
 
         if (!existingUser) {
-            await prisma.user.create({
+            await prisma.user.create({ 
                 data: { email }
             })
             console.log("Nouvel utilisateur ajouté dans la base de données")

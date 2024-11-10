@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import Wrapper from "../components/Wrapper";
 import { useUser } from "@clerk/nextjs";
-import EmojiPicker from "emoji-picker-react";
+// import EmojiPicker from "emoji-picker-react";
 import { addBudget, getBudgetsByUser } from "../actions";
 import Notification from "../components/Notification";
 import { Budget } from "../../../type";
@@ -133,7 +133,7 @@ const page = () => {
 
             {showEmojiPicker && (
               <div className="flex justify-center items-center my-4">
-                <EmojiPicker onEmojiClick={handleEmojiSelect} />
+                {/* <EmojiPicker onEmojiClick={handleEmojiSelect} /> */}
               </div>
             )}
 
