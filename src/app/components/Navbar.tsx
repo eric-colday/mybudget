@@ -21,7 +21,7 @@ const Navbar = () => {
           <>
             <div className="flex justify-between items-center">
               <Link href={"/"} className="flex text-2xl items-center font-bold">
-                e <span className="text-accent">.Track</span>
+                My <span className="text-accent">Budget</span>
               </Link>
 
               <div className="md:flex hidden">
